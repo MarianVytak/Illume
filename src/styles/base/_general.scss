@@ -1,24 +1,31 @@
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.52vw;
-    color: black;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.52vw;
+  color: black;
 }
 
 h1, h2, h3, h4, h5, h6, ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
 }
 
+img {
+  width: auto;
+  max-width: 100%;
+}
+
 .container {
-    width: 100%;
-    padding: 0 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10em;
+  box-sizing: border-box;
 }

@@ -1,0 +1,70 @@
+.intro {
+  position: relative;
+  padding: 20em 0 15em;
+  background-image: url(../../../img/bg/intro-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+.intro__block {
+  display: flex;
+}
+
+.intro__block_img {
+  position: relative;
+  width: 50%;
+}
+
+.intro__bee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85.5em;
+}
+
+.intro__block_content {
+  width: 50%;
+  padding-left: 10em;
+}
+
+.intro__desc {
+  margin-top: 1em;
+}
+
+.intro__viber {
+  position: absolute;
+  top: 7.3em;
+  left: 0;
+  width: 27.5em;
+}
+
+.intro__crm {
+  position: absolute;
+  left: 21em;
+  bottom: -20em;
+  width: 38.7em;
+}
+
+.intro__skype {
+  position: absolute;
+  left: 64.4em;
+  bottom: -6em;
+  width: 24.2em;
+}
+
+.intro__instagram {
+  position: absolute;
+  right: 10em;
+  bottom: -13.3em;
+  width: 22.6em;
+}
+
+.intro__down {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  width: 6em;
+}
