@@ -1,0 +1,84 @@
+.home-2 {
+  padding: 7.5em 0 6em;
+}
+
+.home-2__block {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: minmax(0,4fr) minmax(0,2fr);
+  -ms-grid-columns: minmax(0,4fr) minmax(0,2fr);
+  margin-top: 14em;
+}
+
+.home-2__block_cards {
+  -ms-grid-column: 1;
+}
+
+.card__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__item {
+  position: relative;
+  margin-right: 9.5em;
+  margin-bottom: 18em;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+  &:nth-child(2) {
+    top: 7.5em;
+  }
+  &:nth-child(5) {
+    top: 7.5em;
+  }
+}
+
+.card_link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28em;
+  height: 40em;
+  box-shadow: 0 0 6.7em 0.5em rgba(120,120,120,1);
+  border-radius: 1em;
+  transition: .3s;
+  &:hover {
+    transform: translateY(3em);
+  }
+  i {
+    font-size: 12em;
+    color: white;
+  }
+  &.card-skype {
+    background-image: linear-gradient(to top, #2b93c0 0%, #41b4e6 100%);
+  }
+  &.card-facebook {
+    background-image: linear-gradient(to top, #365c85 0%, #4d76a1 100%);
+  }
+  &.card-whatsapp {
+    background-image: linear-gradient(to top, #a2e1ae 0%, #55cd6c 100%);
+  }
+  &.card-telegram {
+    background-color: #41b4e6;
+  }
+  &.card-instagram {
+    background-image: linear-gradient(-145deg, #731ccd 0%, #c22696 48%, #fffc00 100%);
+  }
+  &.card-vk {
+    background-color: #4d76a1;
+  }
+}
+
+.home-2__block_img {
+  -ms-grid-column: 2;
+}
+
+.card_content {
+  display: none;
+  text-align: right;
+  &.active {
+    display: block;
+  }
+}
