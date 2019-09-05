@@ -1,0 +1,42 @@
+.home-3 {
+  padding-bottom: 5em;
+  background-image: url(../../../img/bg/home-3.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+
+.home-3__slider {
+  display: flex;
+  margin-top: 5em;
+  padding-bottom: 3em;
+  overflow-x: auto;
+}
+
+.home-3__slider_item {
+  margin-right: 8em;
+  user-select: none;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.home-3__slider_item_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65em;
+  min-width: 50em;
+  img {
+    max-width: inherit;
+    max-height: 100%;
+  }
+}
+
+.home-3__slider_item_title {
+  margin-top: 3em;
+  font-weight: 100;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+}

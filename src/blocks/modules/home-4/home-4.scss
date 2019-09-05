@@ -1,0 +1,48 @@
+.home-4 {
+  padding: 12em 0 10em;
+}
+
+.home-3__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20em;
+}
+
+.home-3__block_item {
+  width: 66em;
+  padding: 3em 5em;
+  border-radius: 2.5em;
+  background-color: $blue;
+  box-sizing: border-box;
+}
+
+.home-3__block_item_title {
+  font-family: 'Munsom', serif;
+  font-size: 6em;
+  color: $yellow;
+}
+
+.home-3__block_item_list {
+  margin-top: 6em;
+}
+
+.home-3__block_item_list_item {
+  padding: 0.3em 0;
+  border-bottom: 1px solid white;
+  font-family: 'Munsom', serif;
+  font-size: 3em;
+  color: white;
+  &:last-child {
+    border: none;
+  }
+  span {
+    font-size: 1.2em;
+  }
+}
+
+.home-3__block_item_desc {
+  margin-top: 7.5em;
+  font-family: 'Munsom', serif;
+  font-size: 1.8em;
+  color: white;
+}
