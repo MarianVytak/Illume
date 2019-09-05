@@ -30,3 +30,15 @@
 .text-yellow {
   color: $yellow;
 }
+
+@media (max-width: 767.98px) {
+  .title-1 {
+    font-size: 3em;
+  }
+  .title-2 {
+    font-size: 2em;
+  }
+  .desc {
+    font-size: 1.2em;
+  }
+}

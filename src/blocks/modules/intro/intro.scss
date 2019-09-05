@@ -68,3 +68,28 @@
   transform: translate(-50%, 50%);
   width: 6em;
 }
+
+@media (max-width: 575.98px) {
+  .intro {
+    padding: 2em 0;
+    background-image: none;
+    background-color: $blue;
+  }
+  .intro__viber,
+  .intro__crm,
+  .intro__skype,
+  .intro__instagram,
+  .intro__down {
+    display: none;
+  }
+  .intro__block_img {
+    display: none;
+  }
+  .intro__block_content {
+    width: 100%;
+    padding-left: 0;
+  }
+  .intro__desc {
+    color: white;
+  }
+}
