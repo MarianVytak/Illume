@@ -41,3 +41,24 @@
   color: white;
   text-align: center;
 }
+
+@media (max-width: 767.98px) {
+  .home-3 {
+    padding-bottom: 1em;
+  }
+  .home-3__slider {
+    margin-top: 1em;
+    padding-bottom: 1em;
+  }
+  .home-3__slider_item {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+  .home-3__slider_item_img {
+    min-width: 10em;
+    height: 10em;
+  }
+  .home-3__slider_item_title {
+    font-size: 1em;
+  }
+}
