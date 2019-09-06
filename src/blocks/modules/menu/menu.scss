@@ -1,0 +1,25 @@
+.menu {
+  background-color: white;
+  display: none;
+}
+
+.menu__list {
+  padding-bottom: 15px;
+}
+
+.menu__list_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.menu__list_item_link {
+  color: $blue;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: none !important;
+  }
+}
