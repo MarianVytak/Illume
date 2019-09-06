@@ -66,6 +66,7 @@
         "dragscroll": "^0.0.8",
         "jquery": "^3.4.1",
         "malihu-custom-scrollbar-plugin": "^3.1.5",
+        "parallax-js": "^3.1.0",
         "slick-carousel": "^1.8.1"
     }
 }

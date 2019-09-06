@@ -1,0 +1,10 @@
+const scene = document.getElementById('scene');
+const scene2 = document.getElementById('scene2');
+const scene3 = document.getElementById('scene3');
+const scene4 = document.getElementById('scene4');
+const scene5 = document.getElementById('scene5');
+const paralax1 = new Parallax(scene);
+const paralax2 = new Parallax(scene2);
+const paralax3 = new Parallax(scene3);
+const paralax4 = new Parallax(scene4);
+const paralax5 = new Parallax(scene5);
