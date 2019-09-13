@@ -123,7 +123,7 @@
   .card_link {
     width: 5em;
     height: 8em;
-    box-shadow: 0 0 12px 1px #787878;
+    box-shadow: $shadow-mobile;
     &:hover {
       transform: none;
     }
