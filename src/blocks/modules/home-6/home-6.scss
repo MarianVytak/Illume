@@ -1,0 +1,38 @@
+.home-6 {
+  background-image: url(../../../img/bg/home-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-6__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72em;
+}
+
+.home-6__block_left {}
+
+.home-6_img {
+  width: 100em;
+}
+
+.home-6__block_right {}
+
+.home-6_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 51em;
+  height: 13.5em;
+  border-radius: 2em;
+  background-image: linear-gradient(to top, #32336b 0%, #5a6cd8 100%);
+}
+
+.home-6_btn_text {
+  font-weight: bold;
+  font-size: 4.6em;
+  color: white;
+  text-align: center;
+}
