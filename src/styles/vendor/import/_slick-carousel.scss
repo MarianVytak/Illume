@@ -1,0 +1,36 @@
+@import "../../../../node_modules/slick-carousel/slick/slick.scss";
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4.6em;
+  height: 8.7em;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0.52vw;
+  color: transparent;
+  cursor: pointer;
+  z-index: 2000;
+  transition: .3s;
+  &:focus {
+    outline: none;
+  }
+  &.slick-disabled {
+    display: none !important;
+  }
+}
+
+.slick-prev {
+  left: -3em;
+  background-image: url(../../../img/icons/prev.png);
+}
+
+.slick-next {
+  right: -3em;
+  background-image: url(../../../img/icons/next.png);
+}
