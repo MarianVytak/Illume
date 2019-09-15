@@ -13,4 +13,14 @@
   }
 }
 
-.home-13__slider_item {}
+@media (max-width: 767.98px) {
+  .home-13 {
+    padding: 2em 0;
+  }
+  .home-13__slider {
+    margin-top: 2em;
+    .slick-slide {
+      padding: 0 1em;
+    }
+  }
+}
