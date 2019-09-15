@@ -66,3 +66,44 @@
   font-size: 4em;
   color: black;
 }
+
+@media (max-width: 767.98px) {
+  .home-10 {
+    padding: 2em 0;
+  }
+  .home-10__list {
+    flex-wrap: wrap;
+    margin-top: 2em;
+  }
+  .home-10__list_item {
+    margin-right: 0;
+    margin-bottom: 2em;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .home-10__list_item_box {
+    padding: 1em;
+    border-radius: 0.5em;
+  }
+  .home-10__list_item_name {
+    font-size: 1.5em;
+  }
+  .home-10__list_item_content {
+    min-height: auto;
+    p {
+      font-size: 1em;
+    }
+  }
+  .home-10__list_item_price {
+    font-size: 1.5em;
+  }
+  .home-10__list_item_btn {
+    height: 3em;
+    margin-top: 1em;
+    border-radius: 0.5em;
+  }
+  .home-10__list_item_btn_text {
+    font-size: 1.5em;
+  }
+}
