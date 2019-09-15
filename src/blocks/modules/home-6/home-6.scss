@@ -36,3 +36,26 @@
   color: white;
   text-align: center;
 }
+
+@media (max-width: 767.98px) {
+  .home-6 {
+    padding: 2em 0;
+  }
+  .home-6__block {
+    height: auto;
+  }
+  .home-6__block_left {
+    display: none;
+  }
+  .home-6__block_right {
+    width: 100%;
+  }
+  .home-6_btn {
+    width: 100%;
+    height: 3em;
+    border-radius: 0.5em;
+  }
+  .home-6_btn_text {
+    font-size: 1em;
+  }
+}
