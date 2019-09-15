@@ -46,3 +46,28 @@
   margin-top: 0.5em;
   font-size: 3.6em;
 }
+
+@media (max-width: 767.98px) {
+  .home-8 {
+    padding: 2em 0;
+  }
+  .home-8__block {
+    margin-top: 2em;
+    padding: 0 1em;
+  }
+  .home-8__block_left {
+    display: none;
+  }
+  .home-8__subtitle {
+    font-size: 1.5em;
+  }
+  .home-8__list_item {
+    margin-top: 1em;
+  }
+  .home-8__list_item_name {
+    font-size: 1em;
+  }
+  .home-8__list_item_text {
+    font-size: 1em;
+  }
+}
