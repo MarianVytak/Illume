@@ -70,3 +70,27 @@
     display: block;
   }
 }
+
+@media (max-width: 767.98px) {
+  .home-9__block {
+    flex-wrap: wrap;
+    margin-top: 2em;
+    padding: 0 1em;
+  }
+  .home-9__list_item {
+    width: 100%;
+    height: 5em;
+    margin-bottom: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    &:after {
+      display: none;
+    }
+    &.active {
+      margin-left: 0;
+    }
+  }
+  .home-9__list_item_name {
+    font-size: 1em;
+  }
+}
