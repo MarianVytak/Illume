@@ -11,5 +11,13 @@ $('.home-11__slider').slick({
     arrows: true,
     dots: false,
     fade: false,
-    adaptiveHeight: true
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        }
+    ]
 });

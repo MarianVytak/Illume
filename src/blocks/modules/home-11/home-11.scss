@@ -41,3 +41,25 @@
   font-size: 3em;
   text-align: center;
 }
+
+@media (max-width: 767.98px) {
+  .home-11 {
+    padding: 2em 0;
+  }
+  .home-11__slider {
+    margin-top: 2em;
+    .slick-slide {
+      padding: 0 3em;
+    }
+  }
+  .home-11__slider_item {
+    padding: 0.5em;
+    border-radius: 0.5em;
+  }
+  .home-11__slider_item_name {
+    font-size: 1em;
+  }
+  .home-11__slider_item_desc {
+    font-size: 1em;
+  }
+}
