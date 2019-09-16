@@ -62,21 +62,8 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 30em;
   margin-right: 2em;
-}
-.header__bot_logo_icon {
-  margin-right: 1.2em;
-  img {
-    max-width: 7.5em;
-    max-height: 7.5em;
-  }
-}
-.header__bot_logo_text {
-  font-family: 'Monsum', serif;
-  font-size: 7.2em;
-  color: black;
-  line-height: 1;
-  white-space: nowrap;
 }
 
 .header__bot_navigation {
@@ -122,14 +109,8 @@
   .header__bot {
     padding: 1em;
   }
-  .header__bot_logo_icon {
-    img {
-      max-width: 2.5em;
-      max-height: 2.5em;
-    }
-  }
-  .header__bot_logo_text {
-    font-size: 2em;
+  .header__bot_logo {
+    width: 8em;
   }
   .header__bot_navigation {
     display: none;
