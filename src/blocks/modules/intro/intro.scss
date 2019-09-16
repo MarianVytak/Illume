@@ -13,6 +13,9 @@
 
 .intro__block_img {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
 }
 
