@@ -28,9 +28,6 @@
   &.active {
     background-color: #3eb5f1;
     .home-5__list_item_name {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 700;
-      font-size: 5em;
       color: white;
     }
   }
@@ -57,11 +54,6 @@
     margin-bottom: 1em;
     border-radius: 1em;
     box-shadow: $shadow-mobile;
-    &.active {
-      .home-5__list_item_name {
-        font-size: 1.5em;
-      }
-    }
   }
   .home-5__list_item_name {
     font-size: 1.5em;
