@@ -39,17 +39,6 @@ paths = {
         dist: "./dist/img/",
         watch: "./src/img/**/*.{jpg,jpeg,png,gif,svg,tiff}"
     },
-    webp: {
-        src: [
-        "./src/img/**/*.{jpg,jpeg,png,tiff}",
-        "!./src/img/favicon/*.{jpg,jpeg,png,gif,tiff}"
-        ],
-        dist: "./dist/img/",
-        watch: [
-        "./src/img/**/*.{jpg,jpeg,png,tiff}",
-        "!./src/img/favicon/*.{jpg,jpeg,png,gif,tiff}"
-        ]
-    },
     fonts: {
         src: "./src/fonts/**/*.{woff,woff2}",
         dist: "./dist/fonts/",

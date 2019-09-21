@@ -42,7 +42,6 @@ AddType application/font-woff2 .woff2
 
 # Other
 AddType image/x-icon .ico
-AddType image/webp .webp
 AddType text/cache-manifest .appcache .manifest
 AddType application/xml .rss .atom .xml .rdf
 AddType text/x-vcard .vcf
@@ -147,7 +146,6 @@ AddType text/vtt .vtt
     ExpiresByType image/jpg "access plus 1 month"
     ExpiresByType image/png "access plus 1 month"
     ExpiresByType image/svg+xml "access plus 1 month"
-    ExpiresByType image/webp "access plus 1 month"
     ExpiresByType video/mp4 "access plus 1 month"
     ExpiresByType video/ogg "access plus 1 month"
     ExpiresByType video/webm "access plus 1 month"
@@ -168,7 +166,7 @@ AddType text/vtt .vtt
     </FilesMatch>
 
     # 1 month - Media, JS, CSS
-    <FilesMatch "\.(bmp|gif|jpg|jpeg|png|svg|webp|mp4|ogg|webm|js|css)$">
+    <FilesMatch "\.(bmp|gif|jpg|jpeg|png|svg|mp4|ogg|webm|js|css)$">
         Header set Cache-Control "max-age=2592000, public"
     </FilesMatch>
 
@@ -187,19 +185,6 @@ AddType text/vtt .vtt
 <IfModule mod_headers.c>
     Header unset ETag
     FileETag None
-</IfModule>
-
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-
-    # Check if browser support WebP images
-    RewriteCond %{HTTP_ACCEPT} image/webp
-
-    # Check if WebP replacement image exists
-    RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
-
-    # Serve WebP image instead
-    RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
 </IfModule>
 
 <IfModule mod_headers.c>
