@@ -12,13 +12,9 @@
   height: 72em;
 }
 
-.home-6__block_left {}
-
 .home-6_img {
   width: 100em;
 }
-
-.home-6__block_right {}
 
 .home-6_btn {
   display: flex;
@@ -26,12 +22,13 @@
   justify-content: center;
   width: 51em;
   height: 13.5em;
+  padding: 0 2em;
+  box-sizing: border-box;
   border-radius: 2em;
   background-image: linear-gradient(to top, #32336b 0%, #5a6cd8 100%);
 }
 
 .home-6_btn_text {
-  font-weight: bold;
   font-size: 4.6em;
   color: white;
   text-align: center;
