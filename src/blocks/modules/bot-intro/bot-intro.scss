@@ -23,5 +23,11 @@
     padding: 2em 0;
     background-image: none;
     background-color: $blue;
+    .intro__block_content {
+      width: 100%;
+    }
+    .intro__block_img {
+      width: 100%;
+    }
   }
 }
