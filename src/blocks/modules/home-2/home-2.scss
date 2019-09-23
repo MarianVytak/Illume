@@ -51,6 +51,9 @@
     font-size: 12em;
     color: white;
   }
+  img {
+    width: 15em;
+  }
   &.card-skype {
     background-image: linear-gradient(to top, #2b93c0 0%, #41b4e6 100%);
   }
@@ -129,6 +132,9 @@
     }
     i {
       font-size: 3em;
+    }
+    img {
+      width: 3em;
     }
   }
   .card_content {
