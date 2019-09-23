@@ -85,8 +85,15 @@
   .intro__down {
     display: none;
   }
+  .intro__block {
+    flex-wrap: wrap;
+  }
   .intro__block_img {
-    display: none;
+    width: 100%;
+  }
+  .intro__bee {
+    width: 100%;
+    position: inherit;
   }
   .intro__block_content {
     width: 100%;
