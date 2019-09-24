@@ -5,10 +5,11 @@ import '../../../../node_modules/dragscroll/dragscroll';
 // Custom Scrollbar.
 $(window).on('load', function () {
     $('.home-3__slider').mCustomScrollbar({
-        theme: 'minimal-dark',
+        theme: 'light-3',
         horizontalScroll: true,
+        autoHideScrollbar: false,
         mouseWheel: {
-            enable: false
+            enable: true,
         }
     });
 
