@@ -117,16 +117,16 @@
       font-size: 1em;
     }
   }
+  .home-12__block_right {
+    margin-top: 2em;
+  }
   .home-12__phone {
-    display: none;
+    max-width: 320px;
   }
   .home-12__form {
-    position: initial;
-    transform: none;
-    width: 100%;
-    height: auto;
-    padding: 1em 0;
-    background-color: transparent;
+    width: 276px;
+    height: 490px;
+    padding: 6em 1em;
   }
   .home-12__form_title {
     margin-bottom: 1em;
